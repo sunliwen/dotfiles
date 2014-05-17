@@ -219,6 +219,9 @@ if [ -s ~/.nvm/nvm.sh ]; then
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
 
+# 2.8) python
+export PIP_DOWNLOAD_CACHE=~/.pip/cache
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
